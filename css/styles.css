@@ -21,16 +21,22 @@ header {
   padding-top: 20px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+}
+
 .container {
   display: flex;
   margin: 0 auto;
-  height: calc(100vh - 100px);
   width: 1200px;
   padding-bottom: 60px;
-  padding-top: 50px;
+
+  flex: 1;
 }
 
-.seccion1 {
+.section1 {
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -159,5 +165,67 @@ header {
 
 .informacion {
   color: #495057;
-  font-size: 18px;
+  font-size: 12px;
+  display: flex;
+}
+.informacion img {
+  padding-right: 8px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: #a4bfda;
+  padding: 30px;
+
+  background-color: #0a3871;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 40px 40px;
+    padding-top: 0;
+  }
+  .botones {
+    padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .content-mu {
+    display: none;
+  }
+  .section1 {
+    height: 100%;
+  }
+  .section1,
+  .section2 {
+    width: 100%;
+  }
+  .botones {
+    padding-right: 0;
+    padding-bottom: 64px;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 640px) {
+  main {
+    height: initial;
+  }
+  .botones {
+    flex-direction: column;
+  }
+
+  .botones button {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+  }
 }

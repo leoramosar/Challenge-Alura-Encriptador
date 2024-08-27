@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styleS.css" />
+    <title>Challenge Encriptador de texto | Alura | Leonardo Arirama</title>
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,17 +20,21 @@
     </header>
     <main>
       <div class="container">
-        <section class="seccion1">
+        <section class="section1">
           <div class="contenedor-text-area">
             <textarea
-              placeholder="ingrese el texto aqui"
+              cols="30"
+              rows="10"
+              placeholder="Ingrese el texto aqui"
               class="text-area"
             ></textarea>
           </div>
 
           <div class="info-alert">
-            <img src="images/info.png" alt="" />
-            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            <h6 class="informacion">
+              <img src="images/info.svg" alt="" /> Solo letras minúsculas y sin
+              acentos
+            </h6>
           </div>
           <div class="botones">
             <button onclick="btnEncriptar()" class="btn-encriptar">
@@ -61,6 +65,9 @@
           </div>
         </section>
       </div>
+      <footer>
+        <p>&copy; 2024 - Leonardo Ramos Arirama | Alura</p>
+      </footer>
     </main>
 
     <script src="js/script.js"></script>

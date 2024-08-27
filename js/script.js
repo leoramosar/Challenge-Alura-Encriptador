@@ -4,11 +4,20 @@ const contentImg = document.querySelector(".content-mu");
 const messageInfo = document.querySelector(".mensaje-info");
 const contentBtnCopy = document.querySelector(".content-btn-copiar");
 
-// La letra "a" es convertida para "at"
+// La letra "a" es convertida para "ai
 // La letra "e" es convertida para "enwer"
 // La letra "i" es convertida para "imes"
-// La letra "o" es convertida para "otrx"
-// La letra "u" es convertida para "ufreast"
+// La letra "o" es convertida para "ober"
+// La letra "u" es convertida para "ufat"
+
+textArea.addEventListener("keydown", function (event) {
+  const specialChars = /[!@#$%^&*(),.?":{}|<>_\-áéíóúÁÉÍÓÚ'¿]/g;
+  const key = event.key;
+  if (specialChars.test(key)) {
+    alert("Caracter especial detectado");
+    event.preventDefault();
+  }
+});
 
 function btnEncriptar() {
   const textoEncriptado = encriptar(textArea.value);
@@ -21,11 +30,11 @@ function btnEncriptar() {
 }
 function encriptar(stringEncriptado) {
   let convert = [
-    ["a", "at"],
-    ["e", "enwer"],
+    ["e", "enter"],
     ["i", "imes"],
-    ["o", "otrx"],
-    ["u", "ufreast"],
+    ["a", "ai"],
+    ["o", "ober"],
+    ["u", "ufat"],
   ];
   stringEncriptado = stringEncriptado.toLowerCase();
 
@@ -48,18 +57,18 @@ function btnDesencriptar() {
 
 function desencriptar(stringDesencriptado) {
   let convert = [
-    ["at", "a"],
-    ["enwer", "e"],
-    ["imes", "i"],
-    ["otrx", "o"],
-    ["ufreast", "u"],
+    ["e", "enter"],
+    ["i", "imes"],
+    ["a", "ai"],
+    ["o", "ober"],
+    ["u", "ufat"],
   ];
   stringDesencriptado = stringDesencriptado.toLowerCase();
   for (let i = 0; i < convert.length; i++) {
     if (stringDesencriptado.includes(convert[i][0])) {
       stringDesencriptado = stringDesencriptado.replaceAll(
-        convert[i][0],
-        convert[i][1]
+        convert[i][1],
+        convert[i][0]
       );
     }
   }

@@ -1,5 +1,4 @@
-# Challenge-Alura-Encriptador
-# Encriptador y Desencriptador de Textos
+# Challenge-Alura-Encriptador | Encriptador y Desencriptador de Textos
 
 Este proyecto es un encriptador y desencriptador de textos simple desarrollado en JavaScript. La aplicación permite a los usuarios encriptar y desencriptar mensajes según reglas específicas, con una interfaz gráfica sencilla.
 
@@ -29,7 +28,7 @@ Este proyecto es un encriptador y desencriptador de textos simple desarrollado e
 
 ### Instrucciones para Personalización
 - **Captura de Pantalla:** 
-`https://github.com/leoramosar/Challenge-Alura-Encriptador/blob/master/images/screen.png`
+https://github.com/leoramosar/Challenge-Alura-Encriptador/blob/master/images/screen.png
 
 - **Enlaces:** Reemplaza `https://github.com/leoramosar/Challenge-Alura-Encriptador` y otros enlaces con tus URLs reales.
 

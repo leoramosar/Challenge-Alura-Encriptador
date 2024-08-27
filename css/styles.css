@@ -1,0 +1,163 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f5fc;
+}
+
+header {
+  height: 100px;
+}
+.container-logo {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.logo {
+  width: 8%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  height: calc(100vh - 100px);
+  width: 1200px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+}
+
+.seccion1 {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.section2 {
+  width: 30%;
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 24px 32px -8px #00000014;
+  border-radius: 32px;
+  padding: 32px;
+}
+
+.content-mu {
+  background-color: white;
+}
+.content-mu img {
+  width: 100%;
+  background-color: transparent;
+}
+
+.contenedor-text-area {
+  display: flex;
+  flex: 1;
+}
+.text-area {
+  border: none;
+  color: #0a3871;
+  margin-right: 10%;
+  text-transform: lowercase;
+  flex: 1;
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
+}
+
+::placeholder {
+  color: #0a3871;
+}
+.text-area:focus {
+  outline: none;
+}
+
+.mensaje {
+  background-repeat: no-repeat;
+  border: none;
+  color: #0a3871;
+  flex: 1;
+  width: 100%;
+  display: none;
+}
+
+.mensaje-info {
+  text-align: center;
+  background-color: white;
+}
+.mensaje-info p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: center;
+  padding-bottom: 16px;
+  background-color: white;
+}
+.mensaje-info span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  background-color: white;
+}
+
+.mensaje:focus {
+  outline: none;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+}
+
+.btn-desencriptar {
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: white;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+}
+.content-btn-copiar {
+  width: 100%;
+  display: none;
+}
+.btn-copiar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: white;
+}
+
+.informacion {
+  color: #495057;
+  font-size: 18px;
+}

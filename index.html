@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styleS.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container-logo">
+        <img class="logo" src="images/logo.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="seccion1">
+          <div class="contenedor-text-area">
+            <textarea
+              placeholder="ingrese el texto aqui"
+              class="text-area"
+            ></textarea>
+          </div>
+
+          <div class="info-alert">
+            <img src="images/info.png" alt="" />
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+          </div>
+          <div class="botones">
+            <button onclick="btnEncriptar()" class="btn-encriptar">
+              Escriptar
+            </button>
+            <button onclick="btnDesencriptar()" class="btn-desencriptar">
+              Desencriptar
+            </button>
+          </div>
+        </section>
+        <section class="section2">
+          <textarea
+            class="mensaje"
+            cols="20"
+            rows="10"
+            placeholder="sdf"
+          ></textarea>
+          <div class="content-mu">
+            <img src="images/munen.png" alt="" />
+          </div>
+          <div class="mensaje-info">
+            <p>Ningún mensaje fue encontrado</p>
+            <span>Ingresa el texto que desees encriptar o desencriptar.</span>
+          </div>
+
+          <div class="content-btn-copiar">
+            <button onclick="copiar()" class="btn-copiar">copiar</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

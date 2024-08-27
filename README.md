@@ -28,7 +28,7 @@ Este proyecto es un encriptador y desencriptador de textos simple desarrollado e
 
 ### Instrucciones para Personalización
 - **Captura de Pantalla:** 
-https://github.com/leoramosar/Challenge-Alura-Encriptador/blob/master/images/screen.png
+![Proyecto](https://github.com/leoramosar/Challenge-Alura-Encriptador/blob/master/images/screen.png)
 
 - **Enlaces:** Reemplaza `https://github.com/leoramosar/Challenge-Alura-Encriptador` y otros enlaces con tus URLs reales.
 

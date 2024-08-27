@@ -30,5 +30,11 @@ Este proyecto es un encriptador y desencriptador de textos simple desarrollado e
 - **Captura de Pantalla:** 
 ![Proyecto](https://github.com/leoramosar/Challenge-Alura-Encriptador/blob/master/images/screen.png)
 
-- **Enlaces:** Reemplaza `https://github.com/leoramosar/Challenge-Alura-Encriptador` y otros enlaces con tus URLs reales.
+## Autor
+
+- **Leonardo Ramos Arirama** - [GitHub](https://github.com/leoramosar/)
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. 
 
